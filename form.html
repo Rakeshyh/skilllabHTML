@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form and HTML Elements</title>
+    <style>
+      h1{
+        color: red;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+       
+        text-align: center;
+        width: 13%;
+        align-items: center;
+        margin-left: 650px;
+        border-radius: 20px;
+        border-style: solid;
+        cursor: pointer;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMCsBu-LgzAK-UkpIqHyUmmtj67P4OjHp8Sw&s);
+        height: 200px;
+        align-self: center;
+      }
+      h1:hover{
+        background:rgb(214, 149, 149);
+        color: blue;
+        border-color: black;
+      }
+      a{
+        text-decoration: none;
+        color: beige;
+      }
+    </style>
+
+  </head>
+  <body>
+    <a href="https://www.flipkart.com">
+      <h1><br><br><br>hello World</h1>
+      <h1><br><br><br>rakesh kumar</h1>
+    </a>
+  
+    <!-- Basic text formatting -->
+    <p STYLE="COLOR: rgb(179, 16, 70);">Hello World</p>
+   
+
+    <b>Hello World</b>
+    <strong>Hello World</strong>
+    <small>Hello World</small>
+    <br />
+    <span>Hello World</span>
+
+    <!-- Headings -->
+
+    <h1 style="COLOR:RED;background-color: aqua;">Hello World</h1>
+    <a href="www.flipkart.com"></a>
+    <h2 style="COLOR:rgb(20, 24, 3);font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">rakesh kumar</h2>
+    <h3 style="font: size 2px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Hello World</h3>
+    <h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif ;">Hello World</h4>
+    <h5>Hello World</h5>
+    <h6>Hello World</h6>
+
+    <!-- Italic and emphasized text -->
+    <i>Hello World</i><br />
+    <em>Hello World</em><br />
+    <u>Hello World</u>
+    <hr />
+    <h1>rakesh kumar</h1>
+
+
+    <!-- Paragraph with formatting -->
+    <p>
+      Lorem ipsum <b><u>dolor</u></b> sit, amet consectetur adipisicing elit.
+      <mark>Enim tenetur natus vitae nihil hic</mark>, praesentium in aliquid?
+      Non rerum fuga placeat quam neque doloremque magni vel, quis voluptatem,
+      sint sequi!
+    </p>
+
+    <hr />
+
+    <!-- Ordered list -->
+    <ol type="A">
+      <li>Java Programming</li>
+      <li>Python Programming</li>
+      <li>C Programming</li>
+    </ol>
+    <ol type="a">
+        <li>Java Programming</li>
+        <li>Python Programming</li>
+        <li>C Programming</li>
+      </ol>
+      <ol type="I">
+        <li>Java Programming</li>
+        <li>Python Programming</li>
+        <li>C Programming</li>
+      </ol>
+      <ol type="i">
+        <li>Java Programming</li>
+        <li>Python Programming</li>
+        <li>C Programming</li>
+      </ol>
+
+
+    <!-- Unordered list -->
+    <ul>
+      <li>Java Programming</li>
+      <li>Python Programming</li>
+      <li>C Programming</li>
+    </ul>
+
+
+    <ul style="list-style-type: square;">
+      <li>Java Programming</li>
+      <li>Python Programming</li>
+      <li>C Programming</li>
+    </ul>
+    <ul style="list-style-type: square;">
+        <li>Java Programming</li>
+        <li>Python Programming</li>
+        <li>C Programming</li>
+      </ul>
+
+    <hr>
+
+    <!-- Dropdown menu -->
+    <h1>Drop Down Menu</h1>
+<select>
+    <option value="">choose any one</option>
+    <option value="C programing">C programing</option>
+    <option value="C++ programing">C++ programing</option>
+    <option value="java programing">java programing</option>
+    <option value="python programing">python programing</option>
+    <option value=".net programing">.net programing</option>
+    <option value="Ruby programing">Ruby programing</option>
+    <option value="c# programing">C# programing</option>
+
+</select>
+    <br /><br /><br />
+    <table>
+      <th>
+        <tr>
+        <td>date</td>
+        <td>phone</td>
+        <td>age</td>
+      </th>
+    </tr>
+    </table>
+
+
+    <!-- Form -->
+    <form>
+        <div class="raw" id="Register">
+        <h3>Register</h3>
+        
+        <label for="name">NAME :</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your Name" /><br /><br />
+  
+        <label for="usn">USN :</label>
+        <input type="text" id="usn" name="usn" required placeholder="Enter your Usn"/><br /><br />
+  
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email" /><br /><br />
+  
+        <label for="phone">Phone :</label>
+        <input type="tel" id="phone" name="phone" required placeholder="Enter your Phone"/><br /><br />
+  
+        <label for="password">Password :</label>
+        <input type="password" id="password" name="password" required  placeholder="Password"/><br /><br />
+  
+        <label>Gender :</label><br />
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label><br />
+  
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label><br />
+  
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="other">Other</label><br /><br />
+  
+        <input type="checkbox" id="terms" name="terms" />
+        <label for="terms">I agree to the terms and conditions</label><br /><br />
+  
+        <button type="submit">Submit</button>
+        <button type="reset">Reset </button> 
+        <a href="#Login"> if you  have an account you can  <b>Login</b></a>
+    </div>
+    <br><br><br><br>
+        <hr>
+  
+  </form>
+ 
+    <img src="data:image/jpeg;base64,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" alt="img" height="50%" width="50%">
+    <hr>
+    <a href="https://www.goggle.com"> for more information click here to open youtube</a>
+    <hr>
+    <form>
+        <div class="raw" id="Login">
+        <h3>login page </h3>
+        <label for="Name">name</label>
+        <input type="text">
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email">
+        <br><br>
+        <label for="password">password</label>
+        <input type="password">
+        <br><br> 
+        <button type="submit">Submit</button>
+        <button type="reset">Reset </button> 
+        <a href="#Register"> "if you dont have an account you can"  <b>Register</b></a>
+    </div>
+    </form>   
+    </body>
+</html>
